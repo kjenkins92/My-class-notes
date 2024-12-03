@@ -1,0 +1,57 @@
+<!-- What is a form? -->
+<!-- We are able to collect user data using forms in HTML -->
+
+
+
+<!-- /////////////////////////////Class Activity/////////////////////////////////////// -->
+<!-- Please look at the mock image to build the form  -->
+
+
+
+<h1>This is the class Forms Example</h1>
+
+
+<form>
+    <div id="firstname">
+        <label>First Name</label>
+        <input type="text" placeholder="Jane Doe" required>
+    </div>
+    <div>
+        <label>What is your favourite color?</label>
+        <input type="color">
+    </div>
+    <div id="E-mail">
+        <label>E-mail</label>
+        <input type="text" placeholder="janedoe@gmail.com" required>
+    </div>
+
+    <div>
+        <lable>Telephone Number</lable>
+        <input type="tel" placeholder="423-300-1234" required>
+    </div>
+    <div>
+        <label>Age</label>
+        <Input type="number" placeholder="20" required>
+    </div>
+
+    <input type="submit" value="submit">
+</form>
+<form action="/submit-country" method="post">
+    <label for="country">Choose your country:</label>
+    <select name="country" id="country">
+        <option value="select" disabled selected>Select your country</option>
+        <option value="us">United States</option>
+        <option value="ca">Canada</option>
+        <option value="uk">United Kingdom</option>
+        <option value="au">Australia</option>
+        <option value="in">India</option>
+        <option value="de">Germany</option>
+        <option value="fr">France</option>
+        <option value="jp">Japan</option>
+        <option value="cn">China</option>
+        <option value="za">South Africa</option>
+        <!-- Add more countries as needed -->
+    </select>
+    <br><br>
+    <input type="submit" value="Submit">
+</form>

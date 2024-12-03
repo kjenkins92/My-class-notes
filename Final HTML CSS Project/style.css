@@ -1,0 +1,243 @@
+
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color:#cce7e8;
+    color: #070606;
+}
+
+.header {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(30deg, rgb(0,255,215) 25%, rgb(100,50,200) 50%, rgb(255,0,255));
+    color:black;
+    padding: 0 rem;
+    font-family:monospace;
+    opacity: 0.5;
+    width: auto;
+}
+.logo {
+    font-size: 2rem;
+    margin-left: 1rem;
+}
+ .name {
+    font-size: 30px;
+    letter-spacing: 0.5rem;
+ }
+
+.nav a {
+    color:#8fd8d8;
+    text-decoration:overline;
+    margin: 1rem;
+    cursor:grab;
+    font-size: 20px;
+}
+
+.nav a:hover {
+    text-decoration:wavy;
+    color: black;
+    font-style:oblique;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.hero {
+    background-image: url('https://coolbackgrounds.io/images/backgrounds/index/sea-edge-79ab30e2.png');
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 20px #010909;
+    border-radius: 9px;
+    transform: rotate(0deg);
+    width: auto;
+}
+
+.subtitle {
+    background-color: ;
+    padding: 0.0rem 0rem;
+    text-align: center;
+    box-shadow: 0 0 20px rgb(241, 239, 239);
+    border-radius: 100px;
+    width: 300px;
+    font-size: 50px;
+    font-style:italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+.about {
+    padding: 2rem;
+width: 50%;
+display: flex;
+justify-content: space-between;
+margin-left: -20px;
+padding-left: 25rem
+}
+
+.about h2 {
+      height: 100px;
+      margin-right: 10px;
+      width: 40%;
+     border-right: 5px solid black;
+}
+
+.work {
+width: 100%;
+display:flex;
+justify-content: space-between;
+padding-left: 23rem;
+}
+
+
+.work-header {
+    height: 545px;
+    width: 40%;
+   border-right: 5px solid black;
+   text-align:center;
+   
+}
+
+.textbox {
+    background-color:#8fd8d8;
+    box-shadow: 0 0 20px black;
+    width: 18%;
+    border-radius: 10px;
+
+}
+
+.textbox-2 {
+    background-color:#8fd8d8;
+    
+    box-shadow: 0 0 20px black;
+    width: 33%;
+    border-radius: 10px;
+}
+
+.grid-container {
+    width: 335%;
+    padding-left: 1rem;
+}
+
+.grid-item {
+    background-color: #cce7e8;
+    padding: 1rem;
+    border-color: #8fd8d8;
+    border-style:double;
+    border-radius: 10px;
+    text-align: left;
+    font-size: medium;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    color: black;
+    width: 40%;
+}
+
+.box-1 {
+    background-image: url("https://images.pexels.com/photos/416676/pexels-photo-416676.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+    background-size: 100%;
+    background-position: center;
+    color: black;
+    width: 40%;
+}
+
+.box-2 {
+    background-image: url("https://www.shutterstock.com/shutterstock/videos/3514709375/thumb/1.jpg?ip=x480");
+    background-size: 100%;
+    background-position: bottom;
+    width: 40%
+}
+
+.box-3 {
+    background-image: url("https://t3.ftcdn.net/jpg/05/07/66/60/360_F_507666066_J8zsoPcCnW0uGcEYzoT0RElpHACKxd6e.jpg");
+    background-position: center;
+    background-size: 110%;
+    width: 40%
+}
+
+.box-4 {
+    background-image: url("https://t3.ftcdn.net/jpg/06/18/03/84/360_F_618038405_ns64dj8ZiCILieaAcB6WpxQalaLoRlx5.jpg");
+    width:40%;
+}
+
+.box-5 {
+    background-image: url("https://i.pinimg.com/736x/76/b1/89/76b189c0084e43a930de502446b78359.jpg");
+    background-position: bottom;
+    background-size: 100%;
+}
+.grid-item span {
+    display: center;
+    margin-top: 0.5rem;
+    font-style: italic;
+}
+
+.contact {
+    padding: 2rem;
+display: flex;
+height: 70px;
+width: 46.5%;
+margin-left: -20px;
+padding-left: 25rem;
+}
+.contact h2 {
+    height: 80px;
+    margin-right: 20px;
+    width: 40%;
+   border-right: 5px solid black;
+   font-size: 25px;
+   font-style:normal;
+   margin-top: 4rem;
+   margin-bottom:2rem;
+}
+
+
+.contact a {
+    color: black;
+    margin: 1rem;
+    font-style:normal;
+    font-size: 13px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration:overline;
+    text-decoration-color:#010909;
+    text-shadow: #ea0ab6;
+    padding-top: 4rem;
+    margin-bottom: 2rem;
+}
+.contact a:hover{
+    color:#8fd8d8;
+    font-style:oblique;
+    text-decoration-color:#8fd8d8;
+    text-transform:uppercase;
+    text-decoration: none;
+}
+
+a {
+    text-decoration:none;
+}
+
+@media (max-width: 768px) {
+    .hero {
+        height: 200px;
+    }
+
+    .work-container {
+        flex-direction: column;
+    }
+
+    .work-item {
+        width: 100%;
+    }
+    @media (max-width: 480px) {
+        body {
+          font-size: 12px;
+        }
+      }
+}
